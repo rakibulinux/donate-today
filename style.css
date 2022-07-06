@@ -89,3 +89,56 @@ hr {
     text-decoration: none;
     border-radius: 50px;
 }
+
+.our-plan {
+    text-align: center;
+}
+
+.FSE {
+
+    display: flex;
+    justify-content: center;
+}
+
+.food {
+    margin: 0px 5px;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    background-color: #EDF5F6;
+    text-align: justify;
+}
+
+.shelter {
+    margin: 0px 5px;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    background-color: #FFEEEE;
+    text-align: justify;
+}
+
+.education {
+    margin: 0px 5px;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    background-color: #fff4d6;
+    text-align: justify;
+}
+
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    height: 177px;
+}
+
+.footer-h1{
+    color: #FF5959;
+    padding-top: 30px;
+
+}
+
+.footer-p{
+    color: white;
+}
