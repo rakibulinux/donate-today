@@ -7,16 +7,16 @@ body {
     text-align: center;
     color: white;
     padding: 200px;
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(14, 11, 11));
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(14, 11, 11));
 }
 
-.header-div h1{
+.header-div h1 {
     font-size: 40px;
     margin: -10px;
 }
 
-.head-sec{
-    background: url(images/donate1.png); 
+.head-sec {
+    background: url(images/donate1.png);
     background-size: cover;
 }
 
@@ -25,6 +25,56 @@ body {
 }
 
 .header-div a {
+    background-image: linear-gradient(45deg, tomato, rgb(243, 122, 52));
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+#donate-today {
+    text-align: center;
+}
+
+.donate-head h1 {
+    font-size: 30px;
+}
+
+#tk {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+.regular-tk {
+    padding: 40px;
+    color: dimgray;
+    background-color: #FAFAFA;
+    font-weight: 700;
+}
+
+.exception-tk {
+    padding: 40px;
+    margin: 20px;
+    color: #FF5959;
+    font-weight: 700;
+    background-color: #FFEEEE;
+    border-style: solid;
+
+}
+
+.other-amount p {
+    color: dimgray;
+}
+
+hr {
+    width: 700px;
+    margin-bottom: 35px;
+    color: dimgray;
+}
+
+.other-amount a {
+    margin-top: 20px;
     background-image: linear-gradient(45deg, tomato, rgb(243, 122, 52));
     padding: 10px 25px;
     color: white;
