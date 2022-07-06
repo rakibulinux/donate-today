@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arima', cursive;
+    margin: 0;
+}
+
+.header-div {
+    text-align: center;
+    color: white;
+    padding: 200px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(14, 11, 11));
+}
+
+.header-div h1{
+    font-size: 40px;
+    margin: -10px;
+}
+
+.head-sec{
+    background: url(images/donate1.png); 
+    background-size: cover;
+}
+
+.header-div p {
+    font-size: 20px;
+}
+
+.header-div a {
+    background-image: linear-gradient(45deg, tomato, rgb(243, 122, 52));
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
