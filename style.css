@@ -40,6 +40,10 @@ body {
     font-size: 30px;
 }
 
+.donate-head p {
+    text-align: center;
+}
+
 #tk {
     display: inline-flex;
     flex-direction: row;
@@ -68,9 +72,13 @@ body {
 }
 
 hr {
+    position: relative;
     width: 700px;
-    margin-bottom: 35px;
-    color: dimgray;
+    top: -15px;
+    border: none;
+    height: 1px;
+    background: rgb(214, 214, 214);
+    margin-bottom: 15px;
 }
 
 .other-amount a {
