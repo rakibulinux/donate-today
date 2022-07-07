@@ -15,6 +15,10 @@ body {
     margin: -10px;
 }
 
+h2{
+    font-size: 30px;
+}
+
 .head-sec {
     background: url(images/donate1.png);
     background-size: cover;
@@ -23,14 +27,6 @@ body {
 .header-div p {
     font-size: 20px;
 }
-
-/* .header-div a {
-    background-image: linear-gradient(45deg, tomato, rgb(243, 122, 52));
-    padding: 10px 25px;
-    color: white;
-    text-decoration: none;
-    border-radius: 50px;
-} */
 
 #donate-btn {
     margin-top: 20px;
@@ -45,19 +41,10 @@ body {
     text-align: center;
 }
 
-.donate-head h1 {
-    font-size: 30px;
-}
-
-.donate-head p {
-    text-align: center;
-}
-
 #tk {
     display: inline-flex;
     flex-direction: row;
 }
-
 
 .regular-tk {
     padding: 40px;
@@ -90,14 +77,19 @@ hr {
     margin-bottom: 15px;
 }
 
-
-
 .our-plan {
     text-align: center;
 }
 
-.FSE {
+.our-plan h2 {
+    padding: 90px 0px 0px 0px;
+}
 
+.our-plan p{
+    padding-top: 0px;
+}
+
+.fse-sec {
     display: flex;
     justify-content: center;
 }
@@ -154,11 +146,6 @@ hr {
     margin: auto;
 }
 
-
-input{
-    justify-content: center;
-}
-
 #email-form{
     background-color: #D9D9D9;
     width: 275px;
@@ -195,4 +182,3 @@ footer {
 .footer-p{
     color: white;
 }
-
